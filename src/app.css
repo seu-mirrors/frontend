@@ -57,13 +57,13 @@ a {
   @apply underline underline-offset-2
 }
 
-a[href]:where(
+/* a[href]:where(
     [href^="//"],
     [href^="http://"],
     [href^="https://"],
 ):after {
   content: ' ↗️';
-}
+} */
 
 /* 
 

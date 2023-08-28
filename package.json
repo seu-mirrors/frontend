@@ -19,8 +19,6 @@
     "vite": "^4.4.9"
   },
   "dependencies": {
-    "@tailwindcss/nesting": "0.0.0-insiders.565cd3e",
-    "ky": "^0.33.3",
     "svelte-spa-router": "^3.3.0"
   }
 }

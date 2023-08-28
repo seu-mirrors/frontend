@@ -4,7 +4,7 @@
 </script>
 
 <header
-  class="relative flex flex-wrap w-full items-center justify-between bg-white text-neutral-900 caddy-shadow mb-8 px-caddy py-6 grow-0 shrink-0"
+  class="relative flex flex-wrap w-full items-center justify-between bg-white text-neutral-900 caddy-shadow px-caddy py-6 grow-0 shrink-0"
 >
   <div class="caddy-wrapper">
     <div class="flex max-w-caddy flex-wrap items-center basis-full">

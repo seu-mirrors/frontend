@@ -11,7 +11,7 @@
   })();
 </script>
 
-<div class="px-4 py-2 flex flex-col">
+<div class="px-4 py-3 flex flex-col">
   <p class="font-medium text-xl flex items-center">
     <Icon class="w-6 h-6 mr-2" src={ArchiveBox} solid />
     镜像列表
