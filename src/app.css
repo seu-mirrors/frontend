@@ -53,9 +53,13 @@ sub {
   vertical-align: sub;
 }
 
-a {
+a:hover {
   @apply underline underline-offset-2
 }
+
+/* a:hover {
+  @apply no-underline
+} */
 
 /* a[href]:where(
     [href^="//"],
