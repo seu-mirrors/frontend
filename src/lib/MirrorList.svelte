@@ -36,7 +36,7 @@
 
         <tbody>
             {#each data as mirror}
-                <tr>
+                <tr class="hover:bg-[#f4f6f7] ">
                     <td class="filename"><a href="/{mirror.name}">{mirror.name}</a></td>
                     <td class="filetime">{mirror.last_update}</td>
                 </tr>
