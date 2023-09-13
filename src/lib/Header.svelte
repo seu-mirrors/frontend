@@ -8,7 +8,7 @@
 >
   <div class="caddy-wrapper">
     <div class="flex max-w-caddy flex-wrap items-center basis-full">
-      <a class="flex items-center mt-2 no-underline" href="/" use:link>
+      <a class="flex items-center mt-2 no-underline hover:no-underline" href="/" use:link>
         <img class="mr-2 h-8 w-8 opacity-95" src={SEULogo} alt="SEU Logo" />
         <span class="font-medium text-xl"
           >东南大学开源镜像站 <span class="text-neutral-400">/</span> SEU Mirrors<sup class="text-blue-600 ml-0.5">α</sup></span
