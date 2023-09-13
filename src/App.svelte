@@ -5,10 +5,13 @@
   import Home from './routes/Home.svelte';
 
   import Router from 'svelte-spa-router'
+  import Status from './routes/Status.svelte';
 
   const routes = {
     // Exact path
     '/': Home,
+
+    '/status': Status
 
     // // Using named parameters, with last being optional
     // '/author/:first/:last?': Author,
@@ -26,12 +29,10 @@
 
 <main class="flex flex-col min-h-screen">
   <Header />
-  <!-- <h1 class="py-8 px-4 border border-indigo-900 shadow-lg">Hello {name}!</h1> -->
-  <!-- <p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
-  <Counter /> -->
 
-
-  <Router {routes}/>
+  <div class="caddy-wrapper flex flex-wrap bg-white text-neutral-900 gap-0 lg:divide-x max-lg:divide-y caddy-main grow">
+    <Router {routes}/>
+  </div>
 
   <Footer />
 </main>

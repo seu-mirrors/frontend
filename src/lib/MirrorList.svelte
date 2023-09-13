@@ -29,14 +29,14 @@
 
         <thead>
             <tr class="row">
-                <th class="">Name</th>
-                <th class="">Last Update</th>
+                <th>Name</th>
+                <th>Last Update</th>
             </tr>
         </thead>
 
         <tbody>
             {#each data as mirror}
-                <tr class="hover:bg-[#f4f6f7] ">
+                <tr class="hover:bg-[#f4f6f7]">
                     <td class="filename"><a href="/{mirror.name}">{mirror.name}</a></td>
                     <td class="filetime tabular-nums">{mirror.last_update}</td>
                 </tr>
