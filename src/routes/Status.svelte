@@ -52,7 +52,7 @@
                     })()
                 }>
                     <td>{mirror.name}</td>
-                    <td class="tabular-nums">{mirror.next_schedule == "0001-01-01 00:00:00 +0000" ? "N/A" : mirror.next_schedule}</td>
+                    <td class="tabular-nums">{mirror.next_schedule == "0001-01-01 00:00:00 +0000" ? mirror.last_started : mirror.next_schedule}</td>
                     <td>{mirror.upstream}</td>
                     <td>{mirror.size}</td>
                     <td>{mirror.status}</td>
