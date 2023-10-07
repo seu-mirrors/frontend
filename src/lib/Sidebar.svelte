@@ -4,7 +4,7 @@
 </script>
 
 <aside class="flex flex-col divide-y">
-  <div class="px-4 py-3 space-y-2">
+  <!-- <div class="px-4 py-3 space-y-2">
     <p class="font-medium text-xl flex items-center">
       <Icon class="w-6 h-6 mr-2" src={Megaphone} />
       近期更新
@@ -16,7 +16,7 @@
         <span class="text-sm ml-2">2023/08/30</span>
       </div>
     </section>
-  </div>
+  </div> -->
 
   <div class="px-4 py-3 space-y-2">
     <p class="font-medium text-xl flex items-center">
