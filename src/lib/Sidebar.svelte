@@ -1,5 +1,5 @@
 <script>
-  import { Icon, Megaphone, Link } from "svelte-hero-icons";
+  import { Icon, Megaphone, Link, InformationCircle } from "svelte-hero-icons";
   import ExternalLink from "./ExternalLink.svelte";
 </script>
 
@@ -17,6 +17,19 @@
       </div>
     </section>
   </div> -->
+
+  <div class="px-4 py-3 space-y-2">
+    <p class="font-medium text-xl flex items-center">
+      <Icon class="w-6 h-6 mr-2" src={InformationCircle} />
+      试运行
+    </p>
+
+    <section class="space-y-2">
+      <div class="flex items-center">
+        <p>东南大学镜像站目前正处于试运行阶段，对于使用中所遇到的任何问题和需求，还请不吝提出。</p>
+      </div>
+    </section>
+  </div>
 
   <div class="px-4 py-3 space-y-2">
     <p class="font-medium text-xl flex items-center">
